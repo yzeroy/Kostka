@@ -4,7 +4,7 @@ sudo git clone https://github.com/yzeroy/Kostka.git
 
 sudo nano /home/pi/Kostka/.git/hooks/post-merge
 
-#!/bin/sh
+#!/bin/sh 
 rm /home/pi/update_conf.sh
 cp -f /home/pi/Kostka/update.sh /home/pi/update_conf.sh
 cd /home/pi
